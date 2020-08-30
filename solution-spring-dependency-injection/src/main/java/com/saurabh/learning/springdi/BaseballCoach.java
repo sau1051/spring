@@ -4,9 +4,13 @@ public class BaseballCoach implements Coach {
 
 	// define a private field for the dependency
 	private FortuneService fortuneService;
+	private String aa;
 	
 	// define a constructor for dependency injection
-	public BaseballCoach(FortuneService theFortuneService) {
+	public BaseballCoach(final String aa, FortuneService theFortuneService) {
+		super();
+		this.aa = aa;
+		//System.out.println("hiiiiiiiiiiiiooooooooooooooo:::::" + this.aa);
 		fortuneService = theFortuneService;
 	}
 	

@@ -1,5 +1,9 @@
-package com.saurabh.learning.springdi;
+package com.saurabh.learning.springdi.runner;
 
+import com.saurabh.learning.springdi.Coach;
+import com.saurabh.learning.springdi.TrackCoach;
+
+@Deprecated
 public class MyApp {
 
 	public static void main(String[] args) {
