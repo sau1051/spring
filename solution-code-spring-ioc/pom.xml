@@ -4,7 +4,7 @@
   <artifactId>solution-code-spring-ioc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-  	<spring.version>5.2.7.RELEASE</spring.version>
+  	<spring.version>5.3.18</spring.version>
   	<!-- <spring-security.version>3.2.0.RELEASE</spring-security.version> -->
   </properties>
   <build>
